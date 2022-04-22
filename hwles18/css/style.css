@@ -1,0 +1,120 @@
+[class*="col-"]{
+width:100px;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"]{
+  padding:15px;
+  float:left;
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+}
+body{
+font-family: 'Josefin Sans', sans-serif;
+background-color:#00800033;
+}
+header{
+  min-height:295px;
+  width: 100%;
+  background-image: url(../afbeelding/rotterdam.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:#006400;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+  padding-top: 5px;
+  box-shadow: 2px 2px 2px #556B2F;
+  text-shadow: 3px 3px 3px #556B2F;
+}
+footer{
+  min-height:295px;
+  width:100%;
+  background-color: #006400;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+  padding-top: 5px;
+box-shadow: 2px 2px 2px #556B2F;
+text-shadow: 3px 3px 3px #556B2F;
+clear:left;
+}
+.links{
+  display: flex;
+  flex-direction:row;
+  padding:10px;
+  border-radius: 5px;
+  min-height: 600px;
+  width:100%;
+  margin:auto;
+}
+#linker{
+  background-color:#556B2F;
+    border-radius: 5px;
+      box-shadow: 2px 2px 2px #556B2F;
+      padding: 8px;
+      width: auto;
+}
+.rechts{
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+width: 100%;
+  padding:10px;
+  border-radius: 5px;
+  min-height: 600px;
+  margin:auto;
+}
+#een,#twee{
+background-color: #00800040;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #556B2F;
+  padding:8px;
+    min-width:450px;
+}
+.fade{
+  text-shadow: 3px 3px 3px #69696966;
+}
+#kubus,#euromast{
+  float:right;
+  height:150px;
+  width:150px;
+  position: relative;
+  bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #556B2F;
+}
+li{
+  padding: 3px;
+    text-shadow: 3px 3px 3px #696969;
+}
+@media only screen and (min-width: 992px){
+  header,footer{
+    background-color: #0000CD;
+  }
+  #linker{
+    background-color: #556B2FBF;
+  }
+   #een{
+     background-color: #FF0000BF;
+   }
+  #twee{
+    background-color: #FFFF00BF;
+  }
+  body{
+    background-color: #00BFFF33;
+  }
+}
